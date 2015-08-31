@@ -1261,7 +1261,7 @@ FamousFramework.includes("sayawan:twitter", "HEAD", ["sayawan/twitter/assets/ion
                         return '<h1 class="title">' + currentSection + '</h1>';
                     }
                 },
-                '#body': { 'style': { 'background-color': '#E5F4FF' } },
+                '#body': { 'style': { 'background-color': '#E5F4FF', 'overflow': 'hidden' } },
                 '#footer': { 'sections': data.sections },
                 '.view': { 'style': { 'font-size': '30px' } },
                 '#discover-title': {
