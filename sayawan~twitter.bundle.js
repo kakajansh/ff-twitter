@@ -1,6 +1,6 @@
 // Copyright 2015 (c) Famous Industries, Inc.
 "use strict";
-FamousFramework.includes("sayawan:twitter", "HEAD", ["sayawan/twitter/assets/ionic.min.css","famous/layouts/flexible/_constructor.js"], function() {
+FamousFramework.includes("sayawan:twitter", "HEAD", ["sayawan/twitter/assets/ionic.min.css","famous/layouts/flexible/constructor.js"], function() {
     (function(){
         'use strict';
         function addGesture($famousNode, $GestureHandler, $payload, eventName) {
@@ -1123,7 +1123,7 @@ FamousFramework.includes("sayawan:twitter", "HEAD", ["sayawan/twitter/assets/ion
             tree: '<famous:core:node class="flexible-layout">\n            <famous:core:node class="flexible-layout-item"></famous:core:node>\n        </famous:core:node>\n    '
         }).config({
             famousNodeConstructorName: 'FlexibleLayout',
-            includes: ['_constructor.js']
+            includes: ['constructor.js']
         });
     }());
     (function(){
