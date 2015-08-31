@@ -1,0 +1,28 @@
+<header-footer id="hf">
+    <node id="header" class="bar bar-positive"></node>
+
+    <swapper id="body">
+
+        <node id="Home" class="view">
+            <tweets id="tweets"></tweets>
+        </node>
+
+        <node id="Discover" class="view">
+            <node id="discover-title"></node>
+        </node>
+
+        <node id="Connect" class="view">
+            <node id="connect-title"></node>
+        </node>
+
+        <node id="Me" class="view">
+            <node id="profile-image">
+                <img src="{{BASE_URL}}/assets/me.jpg" width="100%">
+            </node>
+            <node id="profile-name"></node>
+        </node>
+
+    </swapper>
+
+    <tabbar id="footer"></tabbar>
+</header-footer>
